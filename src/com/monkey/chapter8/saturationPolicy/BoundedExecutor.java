@@ -4,6 +4,8 @@ import java.util.concurrent.*;
 
 /**
  * @description: 在没有预定义的饱和策略来阻塞execute的情况下，通过使用Semaphore信号量来限制任务的到达率
+ * https://www.jianshu.com/p/8cd5d3a20352
+ * http://blog.sina.com.cn/s/blog_6145ed8101011e19.html
  * @author: JJC
  * @createTime: 2018/11/27
  */
