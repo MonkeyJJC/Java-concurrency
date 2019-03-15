@@ -27,7 +27,7 @@ public class BoundedExecutor {
          * 阻塞方法，直到资源池不为空
          */
         try {
-            semaphore.acquire();
+              semaphore.acquire();
             try {
                 executor.execute(new Runnable() {
                     @Override
